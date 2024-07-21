@@ -28,9 +28,4 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas y bib
 
 4. iniciar frontend del proyecto
 
-   npm run dev
-
-
-
-6. 
-7. 
+   npm run dev 
