@@ -7,25 +7,20 @@ Este proyecto consiste en un dashboard para monitorear datos de un panel solar u
 Antes de comenzar, asegúrate de tener instalados los siguientes programas y bibliotecas:
 
 - Node.js (v18.18.2 o superior)
-- Arduino con los siguientes componentes:
-  - Conexión serial con la computadora
+- Arduino con conexión serial a la computadora
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local:
+1. **Clonar el repositorio:**
+
+   Clona este repositorio en tu máquina local.
 
    ```sh
    git clone https://github.com/cquidenao/inclusive-dashboard.git
    cd inclusive-dashboard
 
-2. Instala dependencias del repositorio
+## Instalación de dependencias
 
-   npm install
-
-3. Iniciar servidor
-
-   npm run start-server
-
-4. iniciar frontend del proyecto
-
-   npm run dev 
+- npm install
+- npm run start-server
+- npm run dev
