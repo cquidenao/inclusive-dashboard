@@ -1,0 +1,5 @@
+/* Define una clase personalizada para el color secundario */
+.hover-text-secondary:hover {
+    color: #1E1F25; /* secondary-100 */
+  }
+  

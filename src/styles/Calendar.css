@@ -1,0 +1,40 @@
+/* Importa los estilos básicos de react-calendar */
+@import 'react-calendar/dist/Calendar.css';
+
+/* Personaliza los estilos del calendario usando Tailwind CSS */
+.react-calendar {
+  @apply bg-secondary-100 p-4 rounded-lg shadow-lg text-white;
+}
+
+.react-calendar__navigation button {
+  @apply text-primary hover:text-secondary-100 transition-colors;
+}
+
+.react-calendar__tile {
+  @apply text-white hover:bg-secondary-900 transition-colors;
+}
+
+.react-calendar__tile--now {
+  @apply bg-primary text-black;
+}
+
+.react-calendar__tile--active {
+  @apply bg-secondary-900 text-white;
+}
+
+.react-calendar__tile--hasActive {
+  @apply bg-secondary-800 text-white; /* Ahora esta clase debería existir */
+}
+
+.react-calendar__month-view__weekdays {
+  @apply text-primary;
+}
+
+.react-calendar__tile--range {
+  @apply bg-secondary-800 text-white; /* Ahora esta clase debería existir */
+}
+
+.react-calendar__tile--rangeStart,
+.react-calendar__tile--rangeEnd {
+  @apply bg-primary text-black;
+}
