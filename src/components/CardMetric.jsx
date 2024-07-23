@@ -6,13 +6,13 @@ const CardMetric = ({ metric, value, description, onViewChart }) => {
   let textColor = "";
 
   switch (metric) {
-    case "temperature":
-      status = "bg-yellow-500/10 text-yellow-500";
-      textColor = "text-yellow-500";
+    case "voltaje":
+      status = "bg-green-500/10 text-green-500";
+      textColor = "text-green-500";
       break;
-    case "humidity":
-      status = "bg-blue-500/10 text-blue-500";
-      textColor = "text-blue-500";
+    case "proIngresosHr":
+      status = "bg-purple-500/10 text-purple-500";
+      textColor = "text-purple-500";
       break;
     default:
       status = "bg-gray-500/10 text-gray-500";
